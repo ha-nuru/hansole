@@ -1,0 +1,133 @@
+/* position dots up a bit */
+.flickity-page-dots {
+    bottom: -22px;
+}
+
+/* dots are lines */
+.flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 0;
+}
+
+.flickity-button {
+    position: absolute;
+    background:
+        border: none;
+    color: #333;
+}
+
+.flickity-button:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.flickity-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px #19F;
+}
+
+.flickity-button:active {
+    opacity: 0.6;
+}
+
+.flickity-button:disabled {
+    opacity: 0.3;
+    cursor: auto;
+    /* prevent disabled button from capturing pointer up event. #716 */
+    pointer-events: none;
+}
+
+.flickity-button-icon {
+    fill: currentColor;
+}
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button {
+    top: 55%;
+    width: 30px;
+    height: 45px;
+}
+
+.flickity-prev-next-button.previous {
+    left: 310px;
+    background: url(../img/sp_com.png) no-repeat -318px -542px;
+}
+
+.flickity-prev-next-button.next {
+    right: 318px;
+    background: url(../img/sp_com.png) no-repeat -345px -542px;
+}
+
+
+.flickity-button-icon {
+    display: none;
+}
+
+/* ---- page dots ---- */
+
+.flickity-page-dots {
+    width: 100%;
+    padding: 0;
+    margin-left: -24px;
+    list-style: none;
+    text-align: center;
+    line-height: 1;
+    position: absolute;
+    left: 0;
+    bottom: 29px;
+}
+
+.flickity-rtl .flickity-page-dots {
+    direction: rtl;
+}
+
+.flickity-page-dots .dot {
+    display: inline-block;
+    height: 3px;
+    width: 50px;
+    margin: 0 3px;
+    cursor: pointer;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.flickity-page-dots .dot.is-selected {
+    opacity: 1;
+}
+
+.magazine_button {
+    width: 26px;
+    display: inline-block;
+    position: absolute;
+    right: 814px;
+    bottom: 23px;
+}
+
+.magazine_button button {
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    outline: 0;
+    margin-left: 2px;
+}
+
+.play-button {
+    background: url(../img/sp_com.png) no-repeat -108px -72px;
+    opacity: 0.5;
+}
+
+.stop-button {
+    background: url(../img/sp_com.png) no-repeat -108px -60px;
+    opacity: 0.5;
+}
+
+.magazine_button button:focus,
+.magazine_button button:active {
+    opacity: 1;
+}
+
+
+
