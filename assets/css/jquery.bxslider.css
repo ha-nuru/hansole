@@ -10,48 +10,36 @@
     touch-action: pan-y;
     margin: 0 auto;
 }
-
 .bx-wrapper img {
     max-width: 100%;
     display: block;
 }
-
 .bxslider {
     margin: 0;
     padding: 0;
     /*fix flickering when used background-image instead of <img> (on Chrome)*/
     -webkit-perspective: 1000;
 }
-
 ul.bxslider {
     list-style: none;
 }
-
 .bx-viewport {
     /* fix other elements on the page moving (in Chrome) */
     -webkit-transform: translateZ(0);
 }
-
 .Bslide .bx-viewport,{
     height: 580px !important;
 }
 .Bslide .bx-viewport, .Yslide .bx-viewport {
     height: auto !important;
 }
-
-
-
 /** THEME
 ===================================*/
-.bx-wrapper {}
-
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
     position: absolute;
     bottom: 58px;
-
 }
-
 .homedeco_slide_box .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
     position: absolute;
@@ -59,7 +47,6 @@ ul.bxslider {
     left: 50%;
     transform: translateX(-50%);
 }
-
 /* LOADER */
 .bx-wrapper .bx-loading {
     min-height: 50px;
@@ -71,7 +58,6 @@ ul.bxslider {
     left: 0;
     z-index: 2000;
 }
-
 /* PAGER */
 .bx-wrapper .bx-pager {
     text-align: center;
@@ -80,7 +66,6 @@ ul.bxslider {
     font-weight: bold;
     color: #666;
 }
-
 .bx-wrapper .bx-pager.bx-default-pager a {
     text-indent: -9999px;
     display: block;
@@ -89,7 +74,6 @@ ul.bxslider {
     background: rgba(255, 255, 255, .5);
     margin: 0 3px;
 }
-
 .homedeco_slide_box .bx-wrapper .bx-pager.bx-default-pager a {
     text-indent: -9999px;
     display: block;
@@ -98,19 +82,16 @@ ul.bxslider {
     background: #bbc0bf;
     margin: 0 3px;
 }
-
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
 .bx-wrapper .bx-pager.bx-default-pager a:focus {
     background: #fff;
 }
-
 .homedeco_slide_box .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .homedeco_slide_box .bx-wrapper .bx-pager.bx-default-pager a.active,
 .homedeco_slide_box .bx-wrapper .bx-pager.bx-default-pager a:focus {
     background: #2d5b79;
 }
-
 .bx-wrapper .bx-pager-item,
 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
     display: inline-block;
@@ -118,36 +99,27 @@ ul.bxslider {
     *zoom: 1;
     *display: inline;
 }
-
 .bx-wrapper .bx-pager-item {
     font-size: 0;
     line-height: 0;
 }
-
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
     left: 33px;
     background: url('../img/sp_com.png') no-repeat -129px -60px;
 }
-
 .homedeco_slide_box .bx-wrapper .bx-prev {
     left: -48px;
     background: url(../img/sp_com.png) -318px -542px;
 }
-
-
 .bx-wrapper .bx-next {
     right: 33px;
     background: url('../img/sp_com.png') no-repeat -158px -60px;
 }
-
 .homedeco_slide_box .bx-wrapper .bx-next {
     right: -48px;
     background: url(../img/sp_com.png) no-repeat -351px -542px;
 }
-
-
-
 .bx-wrapper .bx-controls-direction a {
     position: absolute;
     top: 50%;
@@ -156,18 +128,15 @@ ul.bxslider {
     width: 30px;
     height: 48px;
     text-indent: -9999px;
-    z-index: 9999;
+    z-index: 20;
 }
-
 .bx-wrapper .bx-controls-direction a.disabled {
     display: none;
 }
-
 /* AUTO CONTROLS (START / STOP) */
 .bx-wrapper .bx-controls-auto {
     text-align: center;
 }
-
 .bx-wrapper .bx-controls-auto .bx-start {
     display: block;
     text-indent: -9999px;
@@ -179,14 +148,11 @@ ul.bxslider {
     margin: 0 3px;
     opacity: 0.5;
 }
-
 .bx-wrapper .bx-controls-auto .bx-start:hover,
 .bx-wrapper .bx-controls-auto .bx-start.active,
 .bx-wrapper .bx-controls-auto .bx-start:focus {
     opacity: 1;
 }
-
-
 .bx-wrapper .bx-controls-auto .bx-stop {
     display: block;
     text-indent: -9999px;
@@ -196,13 +162,11 @@ ul.bxslider {
     background: url(../img/sp_com.png) no-repeat -108px -60px;
     opacity: 0.5;
 }
-
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
 .bx-wrapper .bx-controls-auto .bx-stop.active,
 .bx-wrapper .bx-controls-auto .bx-stop:focus {
     opacity: 1;
 }
-
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
     text-align: left;
@@ -210,14 +174,12 @@ ul.bxslider {
     left: 48%;
     transform: translateX(-48%);
 }
-
 .bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
     left: 56.5%;
     bottom: 53px;
     width: 31px;
     transform: translateX(-56.5%);
 }
-
 /* IMAGE CAPTIONS */
 .bx-wrapper .bx-caption {
     position: absolute;
@@ -227,11 +189,57 @@ ul.bxslider {
     background: rgba(80, 80, 80, 0.75);
     width: 100%;
 }
-
 .bx-wrapper .bx-caption span {
     color: #fff;
     font-family: Arial;
     display: block;
     font-size: .85em;
     padding: 10px;
+}
+.Visual_slider_controller .bx-default-pager .bx-pager-item a,.VisualY_slider_controller .bx-default-pager .bx-pager-item a{
+    background-color: #bbc0bf;
+}
+.Visual_slider_controller .bx-default-pager .bx-pager-item a.active,.VisualY_slider_controller .bx-default-pager .bx-pager-item a.active {
+    background-color: #2d5b79;
+}
+@media all and (max-width:640px){
+    .bx-wrapper .bx-controls-direction a{
+        width: 15px;
+        height: 24px;
+        margin-top: 0;
+        transform: translateY(-50%);
+	}
+	.bx-wrapper .bx-prev{
+		background-size: 400px 400px;
+		background-position: -63px -30px;
+		left: 10px;
+	}
+	.bx-wrapper .bx-next{
+		background-size: 400px 400px;
+		background-position: -78px -30px;
+		right: 10px;
+    }
+    .homedeco_slide_box .bx-wrapper .bx-prev{
+		width: 30px;
+		height: 30px;
+		left: auto;
+		right: 35px;
+		background: url(../img/sp_com.png) #fff -159px -332px;
+		background-size: 400px 400px;
+	}
+	.homedeco_slide_box .bx-wrapper .bx-next{
+		width: 30px;
+		height: 30px;
+		right: 0px;
+		background: url(../img/sp_com.png) #fff -192px -332px;
+		background-size: 400px 400px;
+    }
+    .Yslide .homedeco_slide_box .bx-wrapper .bx-prev{
+        background: url(../img/sp_com.png) #f2f0ed -159px -332px;
+        background-size: 400px 400px;
+    }
+    .Yslide .homedeco_slide_box .bx-wrapper .bx-next{
+        background: url(../img/sp_com.png) #f2f0ed -192px -332px;
+        background-size: 400px 400px;
+    }
 }
