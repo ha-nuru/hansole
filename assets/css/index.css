@@ -409,27 +409,6 @@ header .spot li a {
 	height: 100%;
 	float: left;
 }
-/* .mag_inner_left{
-	display: block;
-	width: 800px;
-	height: 100%;
-	float: left;
-	background: url(../img/magazine_img2.jpg) no-repeat center;
-} */
-/* .mag_inner_left {
-	display: block;
-	width: 800px;
-	height: 100%;
-	float: left;
-	background: url(../img/magazine_img1.jpg) no-repeat center;
-}
-.mag_inner_left {
-	display: block;
-	width: 800px;
-	height: 100%;
-	float: left;
-	background: url(../img/magazine_img1.jpg) no-repeat center;
-} */
 .mag_inner_right {
 	float: left;
 	width: 380px;
