@@ -14,22 +14,7 @@
         pagerSelector: '.main_slider_pagers',
         autoControlsSelector: '.main_slider_controls'
     });
-    
-// 한솔매거진 Slider
-$('.Mag_slide_box').bxSlider({
-    speed: 2000,
-    infiniteLoop: true,
-    randomStart: false,
-    controls: true,
-    auto: true,
-    autoControls: true,
-    autoHover: false,
-    minWidth: 3,
-    maxWidth: 3,
-    pagerSelector: '.Mag_slider_pagers',
-    autoControlsSelector: '.Mag_slider_controls'
-});    
-
+ 
 // 유투브 Slider
     var myWin = $(window).width();
     if(myWin > 640){
@@ -60,7 +45,20 @@ $('.Mag_slide_box').bxSlider({
             pagerSelector: '.VisualY_slider_pagers'
         })
     }
-
+// 한솔매거진 Slider
+    $('.Mag_slide_box').bxSlider({
+        speed: 1500,
+        infiniteLoop: true,
+        randomStart: false,
+        controls: true,
+        auto: true,
+        autoControls: true,
+        autoHover: false,
+        minWidth: 3,
+        maxWidth: 3,
+        pagerSelector: '.Mag_slider_pagers',
+        autoControlsSelector: '.Mag_slider_controls',
+    });    
 // 블로그 Slider
     var myWin = $(window).width();
     if(myWin > 640){

@@ -22,6 +22,11 @@ a:hover {
 	vertical-align: top;
 	text-indent: -9999px;
 }
+.clearfix::after,.clearfix::before{
+	content: '';
+	display: block;
+	clear: both;
+}
 .bx-controls-auto .bx-start {
     display: block;
     text-indent: -9999px;
@@ -372,10 +377,6 @@ header .spot li a {
 	margin: 3px 0 38px;
 	font-size: 16px;
 }
-.Mag_slide_box {
-	overflow: hidden;
-	height: 500px;
-}
 .Mag_slider_controller{
 	margin: 0 auto;
     display: inline-flex;
@@ -406,7 +407,6 @@ header .spot li a {
 .mag_inner_left {
 	display: block;
 	width: 800px;
-	height: 100%;
 	float: left;
 }
 .mag_inner_right {
