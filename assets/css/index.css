@@ -1210,7 +1210,7 @@ button.submut_b {
 	}
 	.Mslide .bx-wrapper{
 		width: 430px! important;
-		height: 205px;
+		height: auto;
 		overflow: visible;
 	}
 	.Mslide  ul.Mag_slide_box{
@@ -1219,14 +1219,14 @@ button.submut_b {
 	.Mslide  li.mag_cont{
 		margin: 0;
 		width: 2.3% !important;
-		height: 205px;
+		height: auto;
 		background-color: transparent;
 	}
 	.mag_inner_right{
 		display: none;
 	}
 	.mag_inner_left{
-		width: 400px;
+	    width: 100%;
 		margin: 0 auto;
 		float: none;
 	}
@@ -1235,9 +1235,9 @@ button.submut_b {
 		height: 100%;
 	}
 	.Mslide .bx-controls-direction{
-		position: absolute;
-		right: -14px;
-		top: -32px;
+	    position: absolute;
+		right: 0;
+		top: -30px;
 	}
 	.Mslide .bx-wrapper .bx-prev{
 		width: 30px;
