@@ -367,6 +367,7 @@ header .spot li a {
 .Mslide .content {
 	width: 100%;
 	padding: 0;
+	    position: relative;
 }
 .Mslide .h2_tit {
 	font-size: 30px;
@@ -1209,9 +1210,9 @@ button.submut_b {
 		font-weight: 600;
 	}
 	.Mslide .bx-wrapper{
-		width: 430px! important;
 		height: auto;
 		overflow: visible;
+		position: inherit;
 	}
 	.Mslide  ul.Mag_slide_box{
 		height: auto;
